@@ -2,11 +2,11 @@ public class Client {
     private int tableNumber;
     public Client numberOfClients;
     private int getTableNumber;
+    private String clientOrder;
 
     private boolean pay = false;
 
     public Client() {
-
        this.numberOfClients = new Client();
 
     }
@@ -20,13 +20,10 @@ public class Client {
         this.tables = existing.Tables;
     }
 
-
     public static int order(){
         System.out.println("I want to make a order.");
 
-        getOrder(Table);
-        receiveOrder(Restaurant);
-
+        setOrder(String clientOrder);
         return 0;
     }
 
