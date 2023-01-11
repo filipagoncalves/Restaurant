@@ -52,7 +52,6 @@ public class Restaurant {
     }
 
     private boolean checkIfTableCanBeFree() {
-        Rtes
         return true;
     }
 
